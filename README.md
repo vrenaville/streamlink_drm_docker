@@ -8,6 +8,7 @@ For libreelec rasperry use qemu compiling
 
 
 For RTP1 use:
-docker run -d -p 4444:4444 -e STREAM_KEY=a2226def4bc8f249de2daf36b7c12b1e -e STREAM_URL=http://streaming-live.rtp.pt/liverepeater/rtpClean1HD.smil/manifest.mpd proxy64:latest
+
+* docker run -d -p 4444:4444 -e STREAM_KEY=a2226def4bc8f249de2daf36b7c12b1e -e STREAM_URL=http://streaming-live.rtp.pt/liverepeater/rtpClean1HD.smil/manifest.mpd proxy64:latest
 
 FOR RTP2 use:
