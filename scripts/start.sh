@@ -16,4 +16,4 @@ else
 fi
 echo "Used key : ${STREAM_KEY}"
 echo "Used Stream: ${STREAM_URL}"
-./home/streamlink/.local/bin/streamlink  --http-header "User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/81.0" $KEY_ARG --player-external-http --stream-segment-threads 5 --player-external-http-interface 0.0.0.0 --player-external-http-port 4444 $STREAM best 
+./home/streamlink/.local/bin/streamlink  --http-header "User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/81.0" $KEY_ARG --player-external-http --stream-segment-threads 4 --player-external-http-interface 0.0.0.0 --player-external-http-port 4444 $STREAM best 
